@@ -14,6 +14,7 @@ app.get("/login",(req,res)=>{
 app.get("/registary",(req,res)=>{
     let username=req.body.username;
     let password=req.body.password;
+    if(username&&password)
     res.send({username:username,password:password,message:"seccessFully"})
 })
 
