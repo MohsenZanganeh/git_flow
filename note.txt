@@ -1,0 +1,8 @@
+
+1 you first create a repository on Github 
+2 add project to repository on Git hub
+3 set git flow on project (git flow init)
+4 posh the develop branch to Github
+5 you can start a new feature (git flow feature start "name feature") 
+6 you can finish your feature (git flow feature finish "name feature") if you finish
+your feature befor publish you most push the develop branch to Github
